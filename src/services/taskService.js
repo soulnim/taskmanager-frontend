@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8080/api/tasks";
+const API_URL = "taskmanager-backend-production-92a7.up.railway.app/api/tasks";
 
 export const getAllTasks = async () => {
     const response = await axios.get(API_URL);
