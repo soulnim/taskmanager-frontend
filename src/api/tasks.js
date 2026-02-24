@@ -1,7 +1,7 @@
 // src/api/tasks.js
 import axios from "axios";
 
-const API_URL = "taskmanager-backend-production-92a7.up.railway.app:8080/api/tasks";
+const API_URL = "taskmanager-backend-production-92a7.up.railway.app/api/tasks";
 
 export const fetchTasks = () => axios.get(API_URL);
 export const createTask = (task) => axios.post(API_URL, task);
